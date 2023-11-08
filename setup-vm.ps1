@@ -9,4 +9,4 @@ choco install git -y
 choco install googlechrome -y
 choco install powerbi -y
 choco install daxstudio -y
-choco install visualstudio2017professional --params "--includeRecommended" -y
+choco install visualstudio2017enterprise -y --params "add Microsoft.VisualStudio.Component.SQL.SSDT"
